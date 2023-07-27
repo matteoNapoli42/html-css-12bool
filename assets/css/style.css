@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-blue{
+    background-color: lightblue;
+}
+
+.nested{
+    background-color: lightgreen;
+}
+
+
+div[class^="col-"]
+{
+    height: 40px;
+    border: 1px solid black
+}
+
+#sec-1{
+    margin-top: 2rem;
+}
+
+#sec-2{
+    margin-top: 2rem;
+}
+
+#sec-3{
+    margin-top: 2rem;
+}
